@@ -1,0 +1,64 @@
+.header-top{
+    height: 80px;
+}
+li a.color{
+    color: black;
+}
+ul li a.color:hover{
+    color: rgb(192, 187, 187);
+}
+ul li{
+    padding-top: 10px;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+}
+ul.col-02{
+    padding-left: 15%;
+}
+ul.col-01{
+    padding-left: 60%;
+}
+ul.col-03{
+    padding-left: 45%;
+}
+ul.col-04{
+    text-align: right;
+}
+ul li a.col-p{
+    padding-right: 39px;
+}
+.banner{
+    width: 100%;
+}
+.text-01{
+    padding-left: 40%;
+}
+.table-01{
+    margin-top: 13px;
+}
+.con-all{
+    padding-top: 21px;
+}
+.col-style{
+    background-color:rgb(250, 241, 241);
+
+}
+.product-list{
+    padding-top: 17%;
+}
+.text-align{
+    margin-left: 12%;
+}
+.img-product{
+    width: 100%;
+    height: 100%;
+}
+.item-icon {
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+

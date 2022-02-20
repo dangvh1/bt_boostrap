@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.ul-main>ul>li {
+    margin-right: 15px;
+}
+
+.ul-main>ul>li>a {
+    color: rgb(26 26 26);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.ul-main>ul>li:hover>a {
+    color: rgb(38, 185, 230);
+}
+
+.main1 {
+    padding-top: 30px;
+    background-color: rgb(228, 238, 241);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.icol-12 {
+    background-image: url(../img_page/header-background.jpg);
+    background-repeat: round;
+}
+
+.header-main {
+    height: 40px;
+}
+
+.header-main>div>img {
+    padding-left: 20px;
+}
+
+.about-us-cont {
+    text-align: center;
+}
+
+.text-header-we {
+    margin-top: 200px;
+    margin-right: 5px;
+}
+
+.text-header-we>h3 {
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+
+.text-header-we>p {
+    font-size: 15px;
+    padding-right: 60px;
+    color: rgb(105, 105, 105);
+}
+
+.botton-hd {
+    margin-bottom: 60px;
+}
+
+.btn-contact {
+    border: none;
+    background-color: rgb(52, 226, 238);
+    color: aliceblue;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.a-btn {
+    font-size: 10px;
+    height: 40px;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 11px;
+}
+.about-us {
+    margin-top: 50px;
+}
+.float-end{
+    float: right !important;
+}
+.col-4{
+    flex: 0 0 auto;
+    width: 33.3333%;
+}
+.about_us {
+    max-width: 620px;
+    margin: 80px auto;
+}
+
+  
+.section__skills .skills__list-wrapper {
+    min-height: 570px;
+}
+  
+.section__skills .skills__list h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+  
+.section__skills .skills__item {
+    margin-top: 40px;
+}
+.task-wrok {
+    background-color: rgb(141, 197, 201);
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.text-icon-item>span {
+    display: block;
+}
+
+.task-item-i {
+    width: 100%;
+}
+
+.i-tem {
+    font-size: 30px;
+    margin-right: 10px;
+    color: aliceblue;
+}
+
+.body-i-tem {
+    justify-content: center;
+    align-items: center;
+}
+.our_works-lead{
+    padding-top: -32px;
+}
+.section_services .servises-item::before {
+    content: "";
+    position: absolute;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section_services {
+    background-color: #f5f5f5;
+  }
+  
+.section_services .our_servises-container {
+    padding-top: 85px;
+    padding-bottom: 65px;
+}
+  
+.section_services .servises-item {
+    position: relative;
+    padding-top: 80px;
+    margin-bottom: 35px;
+    text-align: center;
+} 
+.section_services .servises-item-design::before{
+  background-image: url("../img_page/diamond.svg");
+  background-size: 44px 45px;
+}
+.section_services .servises-item-development::before {
+    background-image: url("../img_page/arc.svg");
+    background-size: 42px 45px;
+  }
+  
+.section_services .servises-item-mobile::before {
+    background-image: url("../img_page/phone.svg");
+    background-size: 50px 45px;
+}
+  
+.section_services .servises-item-game::before {
+    background-image: url("../img_page/joy.svg");
+    background-size: 46px 45px;
+}
+  
+.section_services .servises-item-marketing::before {
+    background-image: url("../img_page/plane.svg");
+    background-size: 50px 45px;
+}
+  
+.section_services .servises-item-photo::before {
+    background-image: url("../img_page/star-black.svg");
+    background-size: 50px 45px;
+}
+  
+.section_services .servises-item-graphic::before {
+    background-image: url("../img_page/coffee.svg");
+    background-size: 50px 45px;
+}
+  
+.section_services .servises-item-illustrations::before {
+    background-image: url("../img_page/box1.svg");
+    background-size: 50px 45px;
+}
+  
+.section_services .servises-item h5 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+  
+.section_services .servises-item p {
+    font-size: 16px;
+    color: #787878;
+}
+.banner{
+    padding-bottom: 50px;
+}
+.input-form{
+    background-color: rgb(228, 226, 224);
+}
+.text-need{
+    padding-bottom: 15px;
+    padding-top: 60px;
+}
+.contact_form button{
+    border: 0;
+    padding: 10px 15px;
+    background-color: #21bfb9;
+    color: #1d1d1d;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.col-5{
+    padding-bottom: 80px;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+}
+
+.col-style{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+ul.col-02{
+    padding-left: 15%;
+}
+ul.col-01{
+    padding-left: 60%;
+}
+ul.col-03{
+    padding-left: 45%;
+}
+ul.col-04{
+    text-align: right;
+}
+ul li a.col-p{
+    padding-right: 39px;
+}
+.text-01{
+    padding-left: 40%;
+}
+.table-01{
+    margin-top: 13px;
+}
+.con-all{
+    padding-top: 21px;
+}
+#skills{
+    background-image: url(img_page/about-us.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
