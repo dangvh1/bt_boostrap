@@ -61,4 +61,8 @@ ul li a.col-p{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.nut:hover{
+    color: rgb(187, 171, 150);
+
+}
 
