@@ -217,7 +217,8 @@ li {
     color: #787878;
 }
 .banner{
-    padding-bottom: 50px;
+    padding-bottom: 6px;
+    padding-top: 26px;
 }
 .input-form{
     background-color: rgb(228, 226, 224);
